@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1117</width>
+    <height>901</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="cestaSoubor">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1091</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vyberte cestu pro uložení</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vybraniSouboruPodpis">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>1091</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vyberte soubor pro podepsání</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vybraniSouboruOvereni">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>1091</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vyberte soubor pro ověření</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushZasifrovat">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>1091</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Podepsání</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushDesifrovat">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>1091</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Oveření</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ulozeniCesta">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>1081</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cesta pro uložení:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nactenySoubor">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>1081</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Načtený soubor pro podepsání:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nazevSouboru">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>1091</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Název souboru:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="datumSouboru">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>1081</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Datum vytvoření souboru:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="overeniSouboru">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>610</y>
+      <width>1081</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Načtený soubor pro ověření</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="vysledekOvereni">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>720</y>
+      <width>1081</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Výsledek</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1117</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

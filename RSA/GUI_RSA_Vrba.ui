@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1121</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QRadioButton" name="radioButtonNahodna">
+      <property name="text">
+       <string>Náhodná</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QRadioButton" name="radioButtonRucni">
+      <property name="text">
+       <string>Ruční zadání</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="HodnotaNGUI">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>N Hodnota</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEditHodnotaN"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="hodnotaDGUI">
+      <property name="text">
+       <string>D Hodnota</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEditHodnotaD"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="hodnotaEGUI">
+      <property name="text">
+       <string>E Hodnota</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEditHodnotaE"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="zasifrovanyTextGUI2">
+      <property name="text">
+       <string>Text šifrování</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lineEditSifrovani"/>
+    </item>
+    <item row="6" column="0" colspan="2">
+     <widget class="QPushButton" name="pushZasifrovat">
+      <property name="text">
+       <string>Zašifrovat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="desifrovanyTextGUI2">
+      <property name="text">
+       <string>Text dešifrování</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="lineEditDesifrovani"/>
+    </item>
+    <item row="8" column="0" colspan="2">
+     <widget class="QPushButton" name="pushDesifrovat">
+      <property name="text">
+       <string>PushDesifrovat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="zasifrovanyTextGUI">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="desifrovanyTextGUI">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="verejnyKlicGUI">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="privatniKlicGUI">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0">
+     <widget class="QLabel" name="desitkovaSoustavaGUI">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1121</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
